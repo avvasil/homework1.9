@@ -16,12 +16,7 @@ public class Main {
         book1.setPublishingYear(2022);
         System.out.println("book1 new edition = " + book1.getPublishingYear());
 
-    }
-
-
-    //task2
-    public static void fillLibrary() {
-
+        //task2
         String[] library = new String[2];
 
         Author author3 = new Author("Павел", "Кузнецов");
@@ -32,18 +27,6 @@ public class Main {
         library[0] = book3.getBookName() + book3.getAuthorName() + book3.getPublishingYear();
         library[1] = book4.getBookName() + book4.getAuthorName() + book4.getPublishingYear();
 
-
-        System.out.println("library[0] = " + library[0].toString());
-
-//task3
-
-       book3.setPublishingYear(2022);
-        System.out.println("book3 = " + book3.getPublishingYear());
-
+        System.out.println("Книга 3 " + library[0].toString());
     }
-
-
-
-
-
 }
